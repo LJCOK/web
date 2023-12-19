@@ -1,0 +1,107 @@
+.login-head_1 {
+    height: 60px;
+}
+/* 顶层空白处 */
+.login-top{
+    height: 200px;
+    background: white;
+}
+/*中间层*/
+.login-middle {
+    height: 487px;
+    background-color: rgba(0, 255, 247, 0.17);
+}
+.login-middle-frame {
+    height: 487px;
+}
+.loginform {
+    position: relative;
+    top: 50%;
+    margin-top: -171px;
+    float: right;
+    width: 350px;
+    background: #fff;
+    margin-right: 825px;
+}
+.nav-tab{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 120px;
+}
+.nav-tab ul li a {
+    font-size: 20px;
+    text-align: center;
+    line-height: 2;
+    padding-left: 45px;
+}
+.tab-content {
+    padding: 18px;
+}
+.form {
+    font-size: 12px;
+    line-height: 18px;
+}
+.input-prepend {
+    width: 100%;
+    margin-bottom: 16px;
+    word-spacing: normal;
+    font-size: 0;
+}
+.input-prepend span {
+    width: 25px;
+    height: 22px;
+    background-color: #ccc;
+    margin-right: -1px;
+    vertical-align: top;
+    display: inline-block;
+    height: 25px;
+    line-height: 18px;
+    padding: 4px 5px;
+    border: 1px solid #ccc;
+}
+.input-prepend input {
+    padding: 6px 8px;
+    line-height: 22px;
+    width: 258px;
+    border: 1px solid #ccc;
+}
+/*输入账号*/
+.prependtop {
+    background-image: url(../images/icons.png);
+    background-position: -10px -201px;
+}
+/*输入密码*/
+.prependlast {
+    background-image: url(../images/icons.png);
+    background-position: -72px -201px;
+}
+.setting input{
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.setting span{
+    margin-left: 140px;
+}
+.buttom {
+    height: 40px;
+    background-color: #2a8ea5;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1px;
+}
+.login_buttom{
+    font-size: 23px;
+    color: #ffffff;
+    background-color: #2a8ea5;
+}
+/*注册*/
+.registration {
+    text-align: right;
+    margin-top: 30px;
+}
+.registration a {
+    font-size: 18px;
+    color: #1474af;
+}

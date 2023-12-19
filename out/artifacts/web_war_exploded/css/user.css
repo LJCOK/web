@@ -1,0 +1,70 @@
+.user-form{
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+。user-form ul li label{
+    font-size:1px;
+}
+.user-form .input{
+    width: 242px;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+/*个人信息之间的空白*/
+.user-form-blank{
+    height: 5px;
+}
+/*中间的一大空白处*/
+.user-form-blank_1{
+    height: 400px;
+}
+.caculate{
+    height: 30px;
+    width: 100px;
+    background-color: rgba(27, 184, 184, 0.93);
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+
+.account ul li {
+    padding-bottom: 20px;
+    margin-left: 71px;
+    margin-bottom: 10px;
+}
+/* 让label内文字右对齐 */
+.account ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+    font-size: 14px;
+    color: black;
+}
+.account ul li .input {
+    width: 242px;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+.agree {
+    padding-left: 134px;
+}
+.agree input {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.account .btn {
+    display: inline-block;
+    width: 200px;
+    height: 41px;
+    line-height: 42px;
+    text-align: center;
+    background-color: #1654c8;
+    font-size: 14px;
+    color: #ffffff;
+    margin: 3px 0 0 98px;
+}
+.email_blank{
+    height: 300px;
+}

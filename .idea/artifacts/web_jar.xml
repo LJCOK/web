@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="web:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/web_jar</output-path>
+    <root id="archive" name="web.jar">
+      <element id="module-output" name="web" />
+      <element id="extracted-dir" path="$APPLICATION_HOME_DIR$/apache-tomcat-9.0.83-windows-x64/apache-tomcat-9.0.83/lib/servlet-api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/web/WEB-INF/lib/jstl.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/web/WEB-INF/lib/standard.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-j-8.0.31.jar" path-in-jar="/" />
+      <element id="library" level="project" name="lib" />
+      <element id="extracted-dir" path="$APPLICATION_HOME_DIR$/apache-tomcat-9.0.83-windows-x64/apache-tomcat-9.0.83/lib/ecj-4.20.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$APPLICATION_HOME_DIR$/apache-tomcat-10.1.16-windows-x64/apache-tomcat-10.1.16/lib/servlet-api.jar" path-in-jar="/" />
+      <element id="javaee-facet-resources" facet="web/web/Web" />
+    </root>
+  </artifact>
+</component>

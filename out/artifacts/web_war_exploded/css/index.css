@@ -1,0 +1,299 @@
+/*字体图标样式*/
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?74458v');
+    src:  url('../fonts/icomoon.eot?74458v#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?74458v') format('truetype'),
+    url('../fonts/icomoon.woff?74458v') format('woff'),
+    url('../fonts/icomoon.svg?74458v#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+/*搜索栏*/
+.search {
+    position: absolute;
+    top: 30px;
+    left: 219px;
+    width: 538px;
+    height: 35px;
+    border: 2px solid #b1191b;
+}
+.search input {
+    width: 455px;
+    height: 35px;
+    background-color: #fff;
+}
+.search button {
+    position: absolute;
+    width: 85px;
+    height: 35px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #b1191a;
+}
+/*搜索热词*/
+.hotwords {
+    position: absolute;
+    left: 260px;
+    top: 75px;
+}
+.hotwords a {
+    margin: 8px 25px 0 0;
+}
+/*购物车*/
+.shopping {
+    position: absolute;
+    top:33px;
+    right: 45px;
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+}
+.shopping::before {
+    content: "\e904";
+    font-family: 'icomoon';
+    margin-right: 13px;
+    color: #e38787;
+}
+.shopping::after {
+    content: "\e903";
+    font-family: 'icomoon';
+    margin-left: 14px;
+}
+
+/* 猜你喜欢的边框 */
+.like {
+    height: 1050px;
+    border: 2px solid #eaeaea;
+    margin-top: 20px;
+}
+.like-bd ul li{
+    float: left;
+    padding: 33px 40px 0 38px;
+}
+.like-text p {
+    font-weight: 700;
+    width: 140px;
+    padding-right: 30px;
+    margin-top: 10px;
+    border-right: 1px solid #ddd;
+    text-align: center;
+}
+.like-text h4 {
+    font-weight: 700;
+    width: 140px;
+    padding-right: 30px;
+    margin-top: 10px;
+    border-right: 1px solid #ddd;
+}
+.like-text .border {
+    border: none;
+}
+.like-bd h3{
+    /*color: #df3033;*/
+    margin-top: 20px;
+}
+.like-text h3 a{
+    margin-top: 10px;
+    margin-left: 20px;
+    background: rgb(22, 167, 200);
+}
+.like-text h2 a{
+    margin-top: 10px;
+    margin-left: 20px;
+    background: rgb(147, 17, 57);
+}
+
+/*输入框*/
+.input_box{
+    width: 25px;
+    font-weight: bold;
+}
+
+/*加入购物车*/
+.shopping-trolley{
+    height: 30px;
+    background-color: rgba(184, 27, 54, 0.93);
+    line-height: 30px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #fff;
+}
+
+
+
+
+
+/*!* 轮播图main *!*/
+/*.main {*/
+/*    position: relative;*/
+/*    width: 730px;*/
+/*    height: 454px;*/
+/*    overflow: hidden;*/
+/*    margin-left: 247px;*/
+/*    margin-top: 7px;*/
+/*}*/
+/*.nav-main {*/
+/*    position: absolute;*/
+/*    bottom: 11px;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%);*/
+/*    display: flex;*/
+/*}*/
+/*.nav-main .bar {*/
+/*    width: 50px;*/
+/*    height: 10px;*/
+/*    border: 2px solid #ffffff;*/
+/*    margin: 6px;*/
+/*    cursor: pointer;*/
+/*    transition: 0.3s;*/
+/*}*/
+/*.bar:hover {*/
+/*    background: #ffffff;*/
+/*}*/
+/*input[name="r"] {*/
+/*    position: absolute;*/
+/*    visibility: hidden;*/
+/*}*/
+/*.active {*/
+/*    width: 700%;*/
+/*    height: 100%;*/
+/*    display: flex;*/
+/*}*/
+/*.focus {*/
+/*    width: 20%;*/
+/*    transition: 0.6s;*/
+/*}*/
+/*.focus img {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*}*/
+/*#r1:checked ~ .s1 {*/
+/*    margin-left: 0;*/
+/*}*/
+/*#r2:checked ~ .s1 {*/
+/*    margin-left: -20%;*/
+/*}*/
+/*#r3:checked ~ .s1 {*/
+/*    margin-left: -40%;*/
+/*}*/
+/*#r4:checked ~ .s1 {*/
+/*    margin-left: -60%;*/
+/*}*/
+/*!* 今日推荐 *!*/
+/*.recom {*/
+/*    margin: 10px 0;*/
+/*    height: 165px;*/
+/*    background-color: #eaeaea;*/
+/*}*/
+/*.clock {*/
+/*    background-color: #5c5251;*/
+/*    color: #ffffff;*/
+/*    text-align: center;*/
+/*    font-size: 18px;*/
+/*    padding: 38px;*/
+/*}*/
+
+/* 猜你喜欢 边界*/
+
+
+
+
+
+
+.center{
+    text-align: center;
+}
+
+.first {
+    position: relative;
+    width: 90px;
+    height: 100%;
+    background-color: red;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    margin-right: 8px;
+    padding: 5px 20px;
+}
+.first i {
+    position: absolute;
+    top: -2px;
+    left: 52px;
+    border-color: transparent #ffffff transparent transparent;
+    border-style: solid;
+    border-width: 27px 11px 0 0;
+}
+.last {
+    font-weight: 500;
+}
+/* 家用电器模块 */
+.floor {
+    margin-top: 21px;
+}
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    /* 加粗字体不加粗 */
+    font-weight: 400;
+}
+.box_hd .tab_list {
+    float: right;
+    line-height: 30px;
+}
+.box_hd ul li {
+    float: left;
+}
+.box_hd ul li a {
+    margin: 0 15px;
+}
+.box_bd {
+    height: 361px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 21px;
+}
+/* 子代选择器（修改所有div样式） */
+.tab_list_item > div {
+    float: left;
+    height: 361px;
+}
+.col_210 {
+    width: 210px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+.col_210 ul li {
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 33px;
+    margin-right: 10px;
+}
+.col_210 ul {
+    padding-left: 12px;
+}
+.col_329 {
+    width: 329px;
+}
+.col_221 {
+    width: 221px;
+}
+.col_221 img {
+    border-right: 1px solid #ccc;
+}
+.col_221 .aa {
+    /* 当a包含有高度的盒子，需要转换块级元素 */
+    display: block;
+    border-top: 2px solid #ccc;
+}

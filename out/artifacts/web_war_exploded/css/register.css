@@ -1,0 +1,71 @@
+.register {
+    height: 473px;
+    margin: 10px 0;
+    border: 1px solid #cccccc;
+}
+.register h3 {
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    color: #080808;
+    padding: 0 36px;
+    background-color: #ececec;
+}
+.register .login {
+    float: right;
+    font-size: 14px;
+}
+.reg-form {
+    width: 600px;
+    margin: 50px auto;
+}
+.reg-form ul li {
+    padding-bottom: 20px;
+    margin-left: 71px;
+    margin-bottom: 10px;
+}
+/* 让label内文字右对齐 */
+.reg-form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+    font-size: 14px;
+    color: black;
+}
+.reg-form ul li .input {
+    width: 242px;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+.agree {
+    padding-left: 134px;
+}
+.agree input {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.reg-form .btn {
+    display: inline-block;
+    width: 200px;
+    height: 41px;
+    line-height: 42px;
+    text-align: center;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #ffffff;
+    margin: 3px 0 0 98px;
+}
+。add_product {
+    display: inline-block;
+    width: 200px;
+    height: 41px;
+    line-height: 42px;
+    text-align: center;
+    background-color: #164ec8;
+    font-size: 14px;
+    color: #ffffff;
+    margin: 3px 0 0 98px;
+}
+.select_user_admin input{
+    margin-left: 50px;
+}

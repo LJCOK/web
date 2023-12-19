@@ -1,0 +1,247 @@
+/*字体图标样式*/
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?74458v');
+    src:  url('../fonts/icomoon.eot?74458v#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?74458v') format('truetype'),
+    url('../fonts/icomoon.woff?74458v') format('woff'),
+    url('../fonts/icomoon.svg?74458v#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+/* 整体的框架设置 */
+.frame {
+    width: 1000px;
+    margin: 0 auto;
+}
+/* 最顶部模块 */
+.the_top {
+    height: 30px;
+    line-height: 30px;
+    background-color: #f1f1f1;
+}
+/*最顶部左边文字约束*/
+.the_top_left {
+    float: left;
+    margin-left: 50px;
+    font-size: 14px;
+}
+/*最顶部右边文字约束*/
+.the_top_right {
+    float: right;
+    margin-right: 50px;
+    font-size: 14px;
+}
+/* 导航栏模块middle */
+.header {
+    position: relative;
+    height: 100px;
+}
+/*第一第二个导航栏之间的空白*/
+.head_blank {
+    height: 30px;
+}
+/*第二个导航栏的框架*/
+.headline {
+    height: 56px;
+    border-bottom: 2px solid rgba(187, 10, 10, 0.87);
+}
+/*左侧字体样式设置*/
+.headline h3{
+    float: left;
+    font-size: 18px;
+    margin: 20px 0 0 10px;
+}
+/*右侧侧字体样式设置*/
+.headline h4{
+    float: right;
+    font-size: 23px;
+    margin: 20px 0 0 10px;
+    margin-right: 20px;
+    background: rgba(0, 255, 247, 0.17);
+}
+
+/*底部栏目模块1*/
+.bottom_blank{
+    /*    添加空白*/
+    height: 30px;
+}
+.bottom_column {
+    border-bottom: 1px solid #ccc;
+}
+.bottom_column ul li {
+    width: 200px;
+    height: 50px;
+    padding-left: 47px;
+    padding-top: 5px;
+}
+.bottom_column ul li h5{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+/* 底部模块3 */
+.bottom_column_1 {
+    text-align: center;
+    margin: 10px 0;
+}
+.bottom_column_1 .link {
+    margin: 20px 0 15px 0;
+}
+.bottom_column_1 .link a {
+    margin: 0 20px;
+}
+
+.logo1 {
+    background: url(../images/icons.png) no-repeat -252px -2px;
+}
+.logo2 {
+    background: url(../images/icons.png) no-repeat -254px -54px;
+}
+.logo3 {
+    background: url(../images/icons.png) no-repeat -257px -106px;
+}
+.logo4 {
+    background: url(../images/icons.png) no-repeat -257px -156px;
+}
+.bottom_column ul li h4 {
+    font-size: 14px;
+    color: black;
+    margin-top: 5px;
+}
+.bottom_column ul li p {
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul li {
+    float: left;
+}
+.style_red {
+    color: #c81623;;
+}
+
+.topright ul li {
+    margin: 0 5px;
+}
+.arrows_icon::after {
+    content: "\e902";
+    font-family: 'icomoon';
+    margin-left: 6px;
+}
+.topright ul li a {
+    padding: 1px 6px;
+}
+
+.logo {
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    margin-left: 23px;
+}
+.logo a {
+    display: block;
+    width: 120px;
+    height: 100px;
+    background: url(../images/logo.jpg);
+    font-size: 0;
+    margin-left: 10px;
+}
+
+
+
+.count {
+    position: absolute;
+    top: -4px;
+    left: 88px;
+    color: #fff;
+    height: 14px;
+    line-height: 14px;
+    background-color: #e60012;
+    padding: 0px 4px;
+    border-radius: 7px 7px 7px 0;
+}
+/* 商品分类模块 */
+.nav {
+    height: 45px;
+    border-bottom: 2px solid #b1191a;
+    margin-top: 10px;
+}
+.dropdown {
+    float: left;
+    width: 210px;
+    height: 45px;
+    background-color: #b1191a;
+}
+.dropdown .dt {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+}
+.dropdown .dd {
+    /* 隐藏下拉条 */
+    /* display: none; */
+    width: 210px;
+    height: 464px;
+    background-color: #c81623;
+    margin-top: 2px;
+}
+.dropdown .dd ul li {
+    position: relative;
+    width: 198px;
+    height: 66px;
+    line-height: 45px;
+    padding-left: 11px;
+}
+.dropdown .dd ul li::after {
+    position: absolute;
+    font-family: 'icomoon';
+    content: "\e903";
+    top:0;
+    left: 150px;
+    color: #fff;
+}
+.dropdown .dd ul li a{
+    color: #fff;
+    font-size: 15px;
+}
+.dropdown .dd ul li:hover {
+    background-color: #fff;
+}
+.dropdown .dd ul li:hover a {
+    color: #c81623;
+}
+.navitems{
+    float: right;
+}
+.navitems ul li a {
+    line-height: 45px;
+    font-size: 16px;
+    padding: 0 50px;
+}
+/* 底部模块1 */
+.footer {
+    height: 200px;
+    background-color: #f5f5f5;
+    padding-top: 15px;
+}
+
+
+
+
+
